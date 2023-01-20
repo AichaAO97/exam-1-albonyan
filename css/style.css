@@ -861,6 +861,11 @@
   margin-bottom: 3.2rem;
 }
 
+.line-color.footer-line {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+}
 .plan-sign-up {
   margin-top: 3.2rem;
   margin-bottom: -1rem;
@@ -1039,6 +1044,7 @@
 .footer {
   background-color: #eef1f6;
   padding-top: 7.8rem;
+  padding-bottom: 3rem;
 }
 
 .footer-div {
@@ -1144,7 +1150,6 @@ ul li {
   align-items: center;
   max-width: 119rem;
   margin: 0 auto;
-  padding-bottom: 6rem;
 }
 
 .social-media-flex {
@@ -1189,4 +1194,28 @@ ul li {
   font-size: 1.6rem;
   font-weight: 400;
   color: #444;
+}
+
+.final-arrow {
+  background-color: #f3b8c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 4rem;
+  height: 4rem;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 2rem;
+
+  /* margin-right: 2.4rem; */
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.arrow-up {
+  width: 2.8rem;
+  height: 2.8rem;
 }
